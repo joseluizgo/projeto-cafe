@@ -98,8 +98,9 @@ header {
 
 .menu {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
     margin: 50px 20px;
+    justify-content: center;
 }
 
 .card {
@@ -149,6 +150,15 @@ footer {
     margin: 5px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.247);
 }
+.contato > a > img{
+    border-radius: 10px;
+    background-color: white;
+    width: 35px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.247);
+}
+
 .contato > img{
     border-radius: 10px;
     background-color: white;
